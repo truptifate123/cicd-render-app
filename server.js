@@ -257,7 +257,7 @@ function checkDeployment() {
     message.innerHTML = "⏳ Checking deployment...";
 
     setTimeout(() => {
-        message.innerHTML = "✅ Deployment is working successfully!";
+        message.innerHTML = CI/CD Deployment Successfully Verified! 🚀;
     }, 1000);
 }
 
