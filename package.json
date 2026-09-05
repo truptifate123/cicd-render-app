@@ -1,0 +1,15 @@
+{
+  "name": "cicd-render-app",
+  "version": "1.0.0",
+  "description": "Simple CI/CD application using GitHub Actions and Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
