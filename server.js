@@ -190,7 +190,7 @@ app.get("/", (req, res) => {
 
 <section class="hero">
 
-    <h1>CI/CD Deployment <span>Successful</span></h1>
+    <h1>Welcome to My <span>CI/CD Project🚀</span></h1>
 
     <p>
         A web application deployed automatically using
