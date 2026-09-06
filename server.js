@@ -257,7 +257,7 @@ function checkDeployment() {
     message.innerHTML = "⏳ Checking deployment...";
 
     setTimeout(() => {
-        message.innerHTML = CI/CD Deployment Successfully Verified! 🚀;
+        message.innerHTML = "✅ Deployment is working successfully Verified!";
     }, 1000);
 }
 
@@ -291,6 +291,6 @@ updateClock();
     `);
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running on port ${PORT}`);
 });
